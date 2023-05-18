@@ -1,0 +1,61 @@
+@charset "UTF-8"; 
+
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header   {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+
+a {
+  background-color: royalblue;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: brown;
+}
+
+table tr:nth-of-type(even) {
+  background-color: lightgray;
+}
